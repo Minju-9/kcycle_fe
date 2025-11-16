@@ -1,0 +1,37 @@
+/* 메인 */
+#intro-page{
+    text-align: center;
+    padding-top: 40px;
+}
+#icon{
+    
+        display: flex;
+        max-width: 150px;
+        width: 128px;
+        height: auto;
+        margin-top: 100px;
+        margin: 20px auto;
+        border-radius: 12px;
+    
+}
+#start-btn{
+    display: inline-block;
+    background-color: #0C8A7C;
+    border: 20px solid white;
+    margin: 15px auto; 
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+}
+#mainimg {
+    display: block;
+    max-width: 80%;    
+    height: auto;      
+    margin: 0 auto;   
+}
