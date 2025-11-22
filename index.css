@@ -1,37 +1,57 @@
-/* 메인 */
-#intro-page{
-    text-align: center;
-    padding-top: 40px;
+body {
+  background-image: url("photo/intro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;    
+  align-items: center;         
 }
-#icon{
-    
-        display: flex;
-        max-width: 150px;
-        width: 128px;
-        height: auto;
-        margin-top: 100px;
-        margin: 20px auto;
-        border-radius: 12px;
-    
+
+.title-box{
+  position: absolute;
+  top: 9%;            /* 텍스트를 위로 올리고 싶을 때 여기 조절 */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
-#start-btn{
-    display: inline-block;
-    background-color: #0C8A7C;
-    border: 20px solid white;
-    margin: 15px auto; 
-    padding: 20px 40px;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 500;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    margin-top: 40px;
+
+.title-box h1 {
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-#mainimg {
-    display: block;
-    max-width: 80%;    
-    height: auto;      
-    margin: 0 auto;   
+
+.title-box h2 {
+  color: black;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.start-btn {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 18px 50px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: center top;
+  }
 }
