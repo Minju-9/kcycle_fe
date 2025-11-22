@@ -22,12 +22,14 @@ body {
 
 .title-box h1 {
   color: white;
+  white-space: nowrap;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .title-box h2 {
   color: black;
+  white-space: nowrap;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
@@ -45,7 +47,8 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
   cursor: pointer;
 }
 
