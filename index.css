@@ -14,8 +14,8 @@ body {
 
 .title-box{
   position: absolute;
-  top: 9%;            /* 텍스트를 위로 올리고 싶을 때 여기 조절 */
-  left: 50%;
+  top: 9%;            
+  align-items: center;
   transform: translateX(-50%);
   text-align: center;
 }
@@ -32,7 +32,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
-.start-btn {
+#intro button {
   position: absolute;
   bottom: 10%;
   left: 50%;
