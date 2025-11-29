@@ -80,7 +80,7 @@ function showSection(i){
   });
   resultEl.style.display = 'none';
 
-  // 진행도 (1번 문제일 때 1/10 → 10%)
+  // 진행도 (1번 문제일 때 1/10 → 10%) 아직 안 됨
   updateProgress(i + 1, totalQuestions);
 }
 

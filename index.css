@@ -1,29 +1,17 @@
-/* ===============================
-   기본 리셋
-================================ */
 * {
   box-sizing: border-box;
 }
-
 html, body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-
-/* ===============================
-   🔥 body에서 intro 스타일 제거
-   (중요) — 문제 해결 핵심
-================================ */
 body {
-  background: none;     /* 배경 이미지 제거 */
-  height: auto;         /* 강제 100vh 제거 */
-  display: block;       /* flex 제거 */
+  background: none;    
+  height: auto;        
+  display: block;       
 }
 
-/* ===============================
-   🔥 intro에만 배경 적용
-================================ */
 #intro {
   background-image: url("photo/intro.png");
   background-size: cover;
@@ -37,23 +25,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   position: relative;
 }
 
-/* intro 내부 제목 디자인 — 기존 유지 */
 .title-box{
   position: absolute;
   top: 9%;
   align-items: center;
   transform: translateX(-50%);
   text-align: center;
+  left: 50%;
 }
 
 .title-box h1 {
   color: white;
   white-space: nowrap;
   margin: 0;
+  align-items: center;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
@@ -97,4 +85,20 @@ section.question {
 /* 결과 화면도 초기 숨김 */
 #result {
   display: none;
+}
+.question{
+  text-align: center;
+}
+#options{
+  text-align: center;
+
+}
+.option{
+  align-items: center;
+}
+.question img{
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
