@@ -88,6 +88,7 @@ section.question {
 }
 .question{
   text-align: center;
+  margin-top: 20%;
 }
 #options{
   text-align: center;
@@ -101,4 +102,5 @@ section.question {
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
+  margin-top: 3px
 }
