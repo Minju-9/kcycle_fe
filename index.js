@@ -113,22 +113,14 @@ function finalize(){
   hideAllQuestions();
   progress.style.display = "none";
 
-  // MBTI 계산
   const EI = scores.E >= scores.I ? "E" : "I";
   const SN = scores.S >= scores.N ? "S" : "N";
   const TF = scores.T >= scores.F ? "T" : "F";
   const JP = scores.J >= scores.P ? "J" : "P";
 
   const mbti = EI + SN + TF + JP;
-  const info = TYPE_INFO[mbti];
 
-  resultImg.src = info.img;
-  resultTitle.textContent = info.label;
-  resultDesc.textContent  = info.desc;
-  resultScores.textContent = `당신의 유형: ${mbti}`;
-
-  resultEl.style.display = 'block';
-  resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.location.href = `result.html?type=${mbti}`;
 }
 
 /* 다시 하기 */

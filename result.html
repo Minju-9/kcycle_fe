@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-싸이클 유형 테스트 결과</title>
+  <link rel="stylesheet" href="./result.css" />
+</head>
+<body>
+  <div class="result-wrapper">
+    <div class="result-card">
+      <h1 class="result-title">K-싸이클 유형 테스트</h1>
+      <div class="top-section">
+        <img id="characterImage" class="character-image" src="" alt="캐릭터" />
+        <div class="keyword-list" id="keywordList"></div>
+      </div>
+      <ul class="desc-list" id="descList"></ul>
+      <div class="bottom-section">
+        <div class="player-box">
+          <div class="player-title">나와 비슷한 선수 👤</div>
+          <div class="player-inner">
+            <img id="playerImage" class="player-image" src="" alt="선수" />
+            <div id="playerName" class="player-name"></div>
+          </div>
+        </div>
+        <div class="video-box">
+          <div class="video-title">
+            영상 보러가기 🎥
+          </div>
+          <button id="videoButton" class="video-button" aria-label="영상 재생">
+            ▶
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="cta-area">
+      <button class="cta-btn" id="retryButton">다시 해보기</button>
+      <button class="cta-btn" id="shareButton">테스트 공유하기</button>
+    </div>
+  </div>
+  <script src="./mbtiResults.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="./result.js"></script>
+</body>
+</html>
+
