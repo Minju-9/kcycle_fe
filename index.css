@@ -107,11 +107,12 @@ section.question {
   margin-top: 3px
 }
  
-#options {
-  display: flex;        /* ★ 핵심 */
-  justify-content: center;  /* 가운데 정렬 */
-  gap: 15px;
-  margin-top: 10px;
+.options {
+  display: flex;   
+  flex-direction: column;     
+  align-items: center; 
+  gap: 14px;
+  margin-top: 3px;
 }
 
 .option button {
@@ -121,7 +122,7 @@ section.question {
   font-size: 15px;
   border-radius: 12px;
   cursor: pointer;
-  width: 150px;
+  width: 250px;
   text-align: center;
 }
 #result {
@@ -136,7 +137,7 @@ section.question {
 
 /* 진행바 */
 #progress {
-  width: 50%;          /* 전체의 반만 사용 */
+  width: 80%;          /* 전체의 반만 사용 */
   margin: 20px auto 0; /* 가운데 정렬 */
   height: 8px;
   background: #e6f0f2;
