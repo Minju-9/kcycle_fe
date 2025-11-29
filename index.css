@@ -88,8 +88,9 @@ section.question {
 }
 .question{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 60px;
 }
+  /*
 #options{
   text-align: center;
 
@@ -97,6 +98,7 @@ section.question {
 .option{
   align-items: center;
 }
+   */
 .question img{
   width: 280px;
   height: 200px;
@@ -104,3 +106,48 @@ section.question {
   border-radius: 8px;
   margin-top: 3px
 }
+ 
+#options {
+  display: flex;        /* ★ 핵심 */
+  justify-content: center;  /* 가운데 정렬 */
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.option button {
+  border: 2px solid #000;
+  background: white;
+  padding: 12px 18px;
+  font-size: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+}
+#result {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+#result img {
+  width: 200px;
+}
+
+/* 진행바 */
+#progress {
+  width: 50%;          /* 전체의 반만 사용 */
+  margin: 20px auto 0; /* 가운데 정렬 */
+  height: 8px;
+  background: #e6f0f2;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#progress .bar {
+  height: 100%;
+  background: #94b8d1;
+  width: 0%;
+}
+
+
