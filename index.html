@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>싸이클 유형 테스트</title>
-  <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <main id="app" aria-live="polite"></main>
+  <main id="app" aria-live="polite">
+  <!--intro-->
     <section id="intro">
       <div class="title-box">
         <h1>싸이클 유형 테스트</h1>
@@ -16,7 +16,183 @@
       </div>
     <button type="button" data-skip="true">테스트 시작하기</button>
    </section>
+   
+   <!--Q1 경기 당일 준비시간에 나는? -->
+    <section id="q1" class="question" aria-labelledby="q1-title">
+      <h2 id="q1-title">1. 경기 당일 준비시간에 나는?</h2>
+      <img src="photo/q1.png" alt="Q1">
+
+        <div class="option">
+            <span>Q1-I</span>
+          <button type="button" data-type="I" alt="Q1-I">조용히 루틴을 지키며 경기 준비에 집중한다</button>
+        </div>
+
+        <div class="option">
+            <span>Q1-E</span>
+          <button type="button" data-type="E" alt="Q1-E">현장 분위기나 응원 소리를 들으며 에너지를 끌어올린다</button>
+        </div>
+    </section>
+
+  <!--Q2 경기 전 다른 선수들을 분석할 때 나는… --->
+  <section id="q2" class="question" aria-labelledby="q2-title">
+      <h2 id="q2-title">2. 경기 전 선수들을 분석할 때 나는?</h2>
+      <img src="photo/q2.png" alt="Q2">
+
+      
+        <div class="option"> 
+            <span>Q2-S</span>
+          <button type="button" data-type="S" alt="Q2-S">페달, 템포, 속도 등 눈에 보이는 요소부터 본다.</button>
+        </div>
+
+        <div class="option">
+            <span>Q2-N</span>
+          <button type="button" data-type="N" alt="Q2-N">전체 흐름이나 레이스 패턴을 먼저 읽는다</button>
+        </div>
+    </section>
+
+    <!--Q3 나의 경륜 경기의 전략을 선택한다면? --->
+    <section id="q3" class="question" aria-labelledby="q3-title">
+      <h2 id="q3-title">3. 나의 경륜 경기의 전략을 선택한다면?</h2>
+      <img src="photo/q3.png" alt="Q3">
+
+        <div class="option">
+            <span>Q3-F</span>
+          <button type="button" data-type="F" alt="Q3-F">선수들의 분위기, 흐름,  감각적 요소도 함께 고려한 전략</button>
+        </div>
+
+        <div class="option">
+            <span>Q3-T</span>
+          <button type="button" data-type="T" alt="Q3-T">거리, 속도, 효율을 기준으로 데이터 중심 전략</button>
+      </div>
+    </section>
+
+    <!--Q4 추월 기회가 온다면? --->
+    <section id="q4" class="question" aria-labelledby="q4-title">
+      <h2 id="q4-title">4. 추월 기회가 온다면?</h2>
+      <img src="photo/q4.png" alt="Q4">
+      
+        <div class="option">
+            <span>Q4-J</span>
+          <button type="button" data-type="J" alt="Q4-J">미리 계산해 둔 거리와 타이밍에 맞춰 추월!</button>
+        </div>
+
+        <div class="option">
+            <span>Q4-P</span>
+          <button type="button" data-type="P" alt="Q4-P">흐름이 열리는 순간, 감각적으로 바로 추월!</button>
+        </div>
+    </section>
+
+    <!--Q5 내가 위험을 감수할 때는… --->
+    <section id="q5" class="question" aria-labelledby="q5-title">
+      <h2 id="q5-title">5. 내가 위험을 감수할 때는…</h2>
+      <img src="photo/q5.png" alt="Q5">
+      
+        <div class="option">
+            <span>Q5-N</span>
+          <button type="button" data-type="N" alt="Q5-N">흐름을 뒤집는 새로운 방식이 떠올라서</button>
+        </div>
+
+        <div class="option">
+            <span>Q5-S</span>
+          <button type="button" data-type="S" alt="Q5-S">눈앞의 기회나 현실적인 승리를 위해서</button>
+        </div>
+    </section>
+
+    <!--Q6 내가 위험을 감수할 때는… --->
+    <section id="q6" class="question" aria-labelledby="q6-title">
+      <h2 id="q6-title">6. 결승선을 통과한 뒤, 나의 첫 반응은?</h2>
+      <img src="photo/q6.png" alt="Q6">
+     
+        <div class="option">
+            <span>Q6-E</span>
+          <button type="button" data-type="E" alt="Q6-E">관중들의 환호에 화답하며 쇼맨십을 보여준다.</button>
+        </div>
+        <div class="option">
+            <span>Q6-I</span>
+          <button type="button" data-type="I" alt="Q6-I">관중에게 조용히 인사하고 묵묵히 정리한다.</button>
+        </div>
+    </section>
+
+     <!--Q7 경기 우승 후 인터뷰를 한다면?--->
+     <section id="q7" class="question" aria-labelledby="q7-title">
+      <h2 id="q7-title">7. 경기 우승 후 인터뷰를 한다면?</h2>
+      <img src="photo/q7.png" alt="Q7">
+
+        <div class="option">
+            <span>Q7-T</span>
+          <button type="button" data-type="T" alt="Q7-T">전략 설명, 경기 판단 같은 논리적인 내용</button>
+        </div>
+        <div class="option">
+            <span>Q7-F</span>
+          <button type="button" data-type="F" alt="Q7-F">감정, 동기, 진심이 느껴지는 말들을 한다</button>
+        </div>
+    </section>
+
+     <!--Q8 경기 영상 분석 시 가장 먼저 볼 곳은?--->
+     <section id="q8" class="question" aria-labelledby="q8-title">
+      <h2 id="q8-title">8. 경기 영상 분석 시 가장 먼저 볼 곳은?</h2>
+      <img src="photo/q8.png" alt="Q8">
+
+        <div class="option">
+            <span>Q8-F</span>
+          <button type="button" data-type="F" alt="Q8-F">흐름이 바뀌던 순간, 감각적으로 이상하던 부분</button>
+        </div>
+
+        <div class="option">
+            <span>Q8-T</span>
+          <button type="button" data-type="T" alt="Q2-T">속도변화, 간격, 라인선택 같은 객관적 움직임</button>
+        </div>
+    </section>
+
+     <!--Q9 내가 선호하는 훈련 방식은?--->
+     <section id="q9" class="question" aria-labelledby="q9-title">
+      <h2 id="q9-title">9. 내가 선호하는 훈련 방식은?</h2>
+      <img src="photo/q9.png" alt="Q9">
+  
+        <div class="option">
+            <span>Q9-E</span>
+          <button type="button" data-type="E" alt="Q9-E">여러 선수들과 함께 하는 운동</button>
+        </div>
+
+        <div class="option">
+            <span>Q9-I</span>
+          <button type="button" data-type="I" alt="Q9-I">혼자 기록을 체크하고 집중하는 개인 운동</button>
+        </div>
+    </section>
+
+     <!--Q10 친구에게 경륜 경기에 대해 설명해줄 때 나는?  --->
+     <section id="q10" class="question" aria-labelledby="q10-title">
+      <h2 id="q10-title">10. 친구에게 경륜 경기에 대해 설명해줄 때 나는?</h2>
+      <img src="photo/q10.png" alt="Q10">
+      
+        <div class="option">
+            <span>Q10-S</span>
+          <button type="button" data-type="S" alt="Q10-S">규칙, 용어, 기술 등 보이는 사실 위주로 설명</button>
+        </div>
+
+        <div class="option">
+            <span>Q10-N</span>
+          <button type="button" data-type="N" alt="Q10-N">숨겨진 전략, 흐름변화, 앞으로의 가능성 위주로 설명</button>
+        </div>
+      </div>
+    </section>
+  
+     <!-- 결과 화면 -->
+    <section id="result" role="region" aria-label="테스트 결과" hidden>
+      <img id="result-img" alt="성격유형 결과" />
+      <h1 id="result-title"></h1>
+      <p id="result-desc"></p>
+      <p id="result-scores"></p>
+      <div class="actions">
+        <button type="button" id="retryBtn">다시 하기</button>
+      </div>
+    </section>
+    <div id="progress" role="status" aria-atomic="true"></div>
+  </main>
+
+  <script defer src="index.js"></script>
 </body>
 </html>
+
 
 
